@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.ISARE</title>
+</head>
+
+<body>
+    
+    <header>
+
+        <nav style="display: flex; justify-content: center;">
+            <img src="logo.png" alt="">
+        </nav>
+
+    </header>
+
+        <div id="container">
+            <div class="div">
+                <h3>Level 0</h3>
+                <p>Bienvenue dans B.ISARE votre ojectif est de trouver le mot du niveau suivant. Utilisez <span><code>b.isare0</code></span>  comme username et <span><code>192.168.10.2</code></span>  comme adresse du serveur</p>
+                <p>commande complete pour la connexion ssh</p><br>
+                <span><code>ssh -l b.isare0 192.168.10.2 ou ssh b.isare0@192.168.10.2</code></span><br>
+                <p>le mot de passe se trouve dans un fichier README dans le repertoire courant de l'utilisateur b.isare0.les commandes qui pourront etre utile</p>
+                <span><code>ls, cd, cat, less, more, head, pwd.</code></span>
+            </div>
+            <div class="div">
+                <h3>Level 1</h3>
+                <p>Felicitations pour votre premiere victoire dans B.ISARE.Pour le niveau suivant utilisez <span><code>b.isare1</code></span>  comme username et <span><code>192.168.10.2</code></span>  comme adresse du serveur</p><br>
+                <p>commande complete pour la connexion ssh</p><br>
+                <span><code>ssh -l b.isare1 192.168.10.2 ou ssh b.isare1@192.168.10.2</code></span>
+                <p>Le mot de passe se trouve dans l'un des fichiers tirets du repertoire courant de l'utilisateur.les commandes qui pourront etre utile</p>
+                <span><code>ls, cd, cat, less, more, head, pwd.</code></span>
+            </div>
+            <div class="div">
+                <h3>Level 2</h3>
+                <p>Le mot de passe se trouve dans un ficher contenu dans l'un des sous-repertoires de l'unique repertoire present dans le repertoire courant de l'utilisateur et possede les caracteristiques suivantes:<br><span><code>le proprietaire est root<br>il fait partie du groupe b.isare2 <br>fait 4.0ko</code></span></p>
+                <p>commande complete pour la connexion ssh</p><br>
+                <span><code>ssh -l b.isare2 192.168.10.2 ou ssh b.isare2@192.168.10.2</code></span><br>
+                <p>les commandes qui pourront etre utile</p>
+                <span><code>ls, cd, cat, less, more, head, pwd, locate, find, grep, du, man.</code></span>
+            </div>
+            <div class="div">
+                <h3>Level 3</h3>
+                <p>Le mot de passe est divise en deux parties l'une se trouvant dans le permier repertoire present dans le repertoire courant de l'utilisateur et l'autre partie dans le second repertoire.  Creez un repertoire temporaire de travaille.trouvez les fichiers contenant les mots de passe et ensemblez les dans le bon ordre. N'oubliez pas : <br>
+                <p>
+                    - Dans le premier fichier le mot de passe est la seule chaine de caractere contenat le caractere <span><code>"6" </code></span><br>
+
+                    - Dans le premier fichier la 1er partie du mot de passe est la seule chaine de caractere qui contient le caractere <span><code>"*"</code></span> et est la 3eme des 10 dernieres lignes du fichier
+                </p>
+                <p>commande complete pour la connexion ssh</p><br>
+                <span><code>ssh -l b.isare3 192.168.10.2 ou ssh b.isare3@192.168.10.2</code></span><br>
+                <p>les commandes qui pourront etre utile</p>
+                <span><code>ls, cd, cat, less, more, head, pwd, find, du, grep,tac, cat, tail, head, <br>mktemp, xxd, tar, xz, base64, hexdump, tr, uniq, man, cp, mv, sort.</code></span>
+            </div>
+            <div class="div">
+                <h3>Level 4</h3>
+                <p>Le repertoire courant de cet utilisateur ne contient aucun fichier contenant le mot de passe du niveau suivant mais une clef prive pour une connexion ssh pour acceder au niveau suivant 
+                <p>les commandes qui pourront etre utile</p>
+                <span><code>ls, cd, cat, less, more, head, pwd, cp, mv, ftp, scp, ssh.</code></span>
+            </div>
+            <div class="div">
+                <h3>Level 5</h3>
+                <p>Pour ce dernier miveau vous devez trouvez le mot de passe contenu dans un fichier son pour decompresse le fichier archive compresse et ouvrir le message de fin </p><br>
+                <p>commande complete pour la connexion ssh</p><br>
+                <p>les commandes qui pourront etre utile</p>
+                <span><code>ls, cd, cat, less, more, head, pwd, tar, gzip, bzip2, ftp, scp.</code></span>
+            </div>
+        </div>
+
+    <footer>
+
+
+    </footer>
+    <canvas id="matrix"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>

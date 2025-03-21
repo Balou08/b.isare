@@ -1,0 +1,52 @@
+@media screen and (min-width: 300px) and (max-width: 896px){
+
+.div {
+
+    width: 80%;
+    margin: 0 auto;
+    padding: -10%;
+
+}
+
+code {
+
+    width: 50vw;
+}
+
+span{
+    padding: none;
+    margin: none;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#container {
+
+    width: 100%;
+    height: 70%;
+    border: none;
+    display: flex;
+    gap: 10px;
+    overflow: none;
+}
+
+header{
+    width: 70%;
+    height: 45px;
+    border: solid chartreuse;
+    border-radius: 45px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #0d1522;
+    display: flex;
+    justify-content: center;
+}
+
+nav > img {
+
+    width: 60%;
+}
+
+    
+}
